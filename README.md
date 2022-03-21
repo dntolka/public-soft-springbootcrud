@@ -16,7 +16,9 @@ I implemented the backend part of Supplier.
 3] In folder springbootcrud-service/src/main/gr.publicsoft.springbootcrud/repository I created a Reposiroty Interface so as to perform crud operations on Model "Supplier", and tt is called "SupplierRepository". Also, it is an extension of JpaRepository<Supplier, Long>, so as to use JpaRepository’s methods: save(), findById(), findAll(), deleteById()… without implementing these methods.
 
 I also defined custom finder methods:
+
 – findByVatNumber(String vatNumber): returns the supplier with the given vatNumber.
+
 – findByCompanyName(String companyName): returns the supplier with the given companyName.
 
 4] I created a package service, and there a class "SupplierService". I defined a private variable "SupplierRepository" and created some functions using the methods above. 
