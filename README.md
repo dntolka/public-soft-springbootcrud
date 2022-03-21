@@ -35,18 +35,29 @@ For example,
 
 Body -> raw (JSON) -> {
 			"companyName": "paldo",
+			
 			"firstName": "despoina",
+			
 			"lastName": "ntolka",
+			
 			"vatNumber": "12345",
+			
 			"irsOffice": "232",
+			
 			"address": "plateia66",
+			
 			"zipCode": "73131",
+			
 			"city": "chania",
+			
 			"country": "greece"
+			
 		       }
 
 (GET) http://localhost:8080/findSuppliers
+
 (GET) http://localhost:8080/supplierByVatNumber/{vatNumber}
+
 (GET) http://localhost:8080/supplierByCompanyName/{companyName}
 
 (DELETE) http://localhost:8080/delete/{id}
@@ -55,13 +66,23 @@ Body -> raw (JSON) -> {
 
 Body -> raw (JSON) -> {
 			"id": ,
+			
 			"companyName": "paldo_new",
+			
 			"firstName": "despoina",
+			
 			"lastName": "ntolka",
+			
 			"vatNumber": "12345",
+			
 			"irsOffice": "232",
+			
 			"address": "plateia66",
+			
 			"zipCode": "73131",
+			
 			"city": "chania",
+			
 			"country": "greece"
+			
 		       }
