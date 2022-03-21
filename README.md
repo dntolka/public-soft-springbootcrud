@@ -35,7 +35,8 @@ For example,
 
 (POST) http://localhost:8080/addSupplier
 
-Body -> raw (JSON) -> {
+Body -> raw (JSON) -> 
+		      {
 			"companyName": "paldo",
 			
 			"firstName": "despoina",
@@ -66,7 +67,8 @@ Body -> raw (JSON) -> {
 
 (PUT) http://localhost:8080/update
 
-Body -> raw (JSON) -> {
+Body -> raw (JSON) -> 
+		      {
 			"id": ,
 			
 			"companyName": "paldo_new",
